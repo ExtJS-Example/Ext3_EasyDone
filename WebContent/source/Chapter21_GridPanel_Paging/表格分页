@@ -1,0 +1,7 @@
+GridPanel众星捧月, 背后有很多类在支持:
+	Ext.grid.ColumnModel: 列模型, 定义GridPanel的表头
+	Ext.grid.RowSelectionModel: 行选择模型, 定义行的选择操作
+	Ext.grid.GridView: 视图, 负责表格面板效果的渲染
+	Ext.data.Store: 数据源, 负责为表格面板提供各种格式的数据
+	Ext.grid.RowNumber: 序号生成器, 负责为每一行生成一个从1开始的序号
+	Ext.grid.CheckboxSelectionModel: 带复选框的行选择模型, 为每行生成一个复选框, 便于多选.

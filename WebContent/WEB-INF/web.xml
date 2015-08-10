@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Chp11 Ajax.html -->
+  <servlet>
+    <servlet-name>TimerServlet</servlet-name>
+    <servlet-class>com.magus.servlet.TimerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TimerServlet</servlet-name>
+    <url-pattern>/TimerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Chp11 Ajax_Combobox.html -->
+  <servlet>
+    <servlet-name>CityServlet</servlet-name>
+    <servlet-class>com.magus.servlet.CityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CityServlet</servlet-name>
+    <url-pattern>/city</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Chp12 -->
+  <servlet>
+    <servlet-name>ComboPagingServlet</servlet-name>
+    <servlet-class>com.magus.servlet.ComboPagingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ComboPagingServlet</servlet-name>
+    <url-pattern>/ComboBoxServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Chp15 -->
+  <servlet>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>com.magus.servlet.FormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/FormServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Chp16 -->
+  <servlet>
+    <servlet-name>FormPanelServlet</servlet-name>
+    <servlet-class>com.magus.servlet.FormPanelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormPanelServlet</servlet-name>
+    <url-pattern>/FormPanel</url-pattern>
+  </servlet-mapping>
+  
+    
+  <!-- Chp21 -->
+  <servlet>
+    <servlet-name>PagerServlet</servlet-name>
+    <servlet-class>com.magus.servlet.PagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PagerServlet</servlet-name>
+    <url-pattern>/pager</url-pattern>
+  </servlet-mapping>
+  
+    <!-- Chp23 -->
+  <servlet>
+    <servlet-name>EditGridServlet</servlet-name>
+    <servlet-class>com.magus.servlet.EditGridServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditGridServlet</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
